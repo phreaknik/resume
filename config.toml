@@ -42,8 +42,8 @@ publishDir = "docs"
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1-817-707-7211"
-        title = "+1-817-707-7211"
+        url = "tel:+18177077211"
+        title = "+1 (817) 707-7211"
 
         [[params.contact.list]]
         class = "website"
@@ -69,12 +69,12 @@ publishDir = "docs"
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Electrical Engineering"
+        degree = "MSc Electrical Engineering\n\nAnalog & Mixed Signal VLSI\n\nGPA: 3.5"
         college = "Texas A&M University"
         dates = "2014 - 2015"
 
         [[params.education.list]]
-        degree = "BSc in Electrical Engineering"
+        degree = "BSc Electrical Engineering\n\nGPA: 3.34 | Dean's List"
         college = "Texas A&M University"
         dates = "2009 - 2014"
 
@@ -105,9 +105,6 @@ publishDir = "docs"
         [[params.interests.list]]
         interest = "Snowboarding"
 
-        [[params.interests.list]]
-        interest = "Motorsports"
-
 # Main body sections
 
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
@@ -117,7 +114,12 @@ publishDir = "docs"
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = """**Summarise your career here**lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat 
+        massa quis enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
+        architecto beatae vitae dicta sunt explicabo."""
 
     # Experiences section
     [params.experiences]
@@ -126,83 +128,124 @@ publishDir = "docs"
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "CTO | Lead Hardware Engineer"
+        dates = "July 2016 - Present"
+        company = "Knocki -- Austin, TX"
+        details = """**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat 
+        massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
+        architecto beatae vitae dicta sunt explicabo."""
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Independent Contractor"
+        dates = "Sep 2015 - July 2016"
+        company = "Knocki -- Austin, TX"
+        details = """**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat 
+        massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
+        architecto beatae vitae dicta sunt explicabo."""
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "VLSI Analog Design Engineer"
+        dates = "May 2015 - July 2016"
+        company = "Cirrus Logic -- Austin, TX"
+        details = """**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat 
+        massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
+        architecto beatae vitae dicta sunt explicabo."""
+
+        [[params.jobs.list]]
+        position = "Product Engineering Intern"
+        dates = "May 2013 - Jan 2015"
+        company = "Texas Instruments -- Dallas, TX"
+        details = """**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat 
+        massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
+        architecto beatae vitae dicta sunt explicabo."""
+
+        [[params.jobs.list]]
+        position = "ASIC Design Intern"
+        dates = "May 2013 - Aug 2013"
+        company = "Emulex -- Austin, TX"
+        details = """**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat 
+        massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
+        architecto beatae vitae dicta sunt explicabo."""
 
     # Projects section
-    [params.projects]
-        enable = true
-        icon = "fa-archive"
-        title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
-
-        [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
-
-        [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
-
-        [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
-
-        [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
-
-        [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
+    #[params.projects]
+     #   enable = true
+      #  icon = "fa-archive"
+       # title = "Projects"
+        #intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+#
+ #       [[params.projects.list]]
+  #      title = "Hugrid"
+   #     url = "https://github.com/aerohub/hugrid"
+    #    tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+#
+ #       [[params.projects.list]]
+  #      title = "Simple FAQ Theme for Hugo"
+   #     url = "https://github.com/aerohub/hugo-faq-theme"
+    #    tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+#
+ #       [[params.projects.list]]
+  #      title = "Hugo Identity"
+   #     url = "https://github.com/aerohub/hugo-identity-theme"
+    #    tagline = "Little profile/card-style template for Hugo."
+#
+ #       [[params.projects.list]]
+  #      title = "Orbit"
+   #     url = "https://github.com/aerohub/hugo-orbit-theme"
+    #    tagline = "Hugo Resume/CV Theme for Developers."
+#
+ #       [[params.projects.list]]
+  #      title = "Me"
+   #     url = "https://github.com/aerohub/hugo-me-theme"
+    #    tagline = "A simple responsive Hugo theme for personal site."
 
     # Skills section
     [params.skills]
         enable = true
         icon = "fa-rocket"
         title = "Skills & Proficiency"
+                
+        [[params.skills.list]]
+        skill = "PCB Design"
+        level = "98%"
 
         [[params.skills.list]]
-        skill = "Python & Django"
+        skill = "Prototyping"
         level = "98%"
                 
         [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Angular"
+        skill = "Mixed Signal VLSI"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "HTML5 & CSS"
+        skill = "Embedded Systems"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "75%"
+        skill = "Embedded C"
+        level = "95%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
+        skill = "Matlab / Octave"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Python"
         level = "60%"
 
     # Footer section
@@ -215,4 +258,4 @@ publishDir = "docs"
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = ""
+        copyright = "John Boyd IV"
