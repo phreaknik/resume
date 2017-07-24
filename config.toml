@@ -245,6 +245,10 @@ publishDir = "docs"
         level = "90%"
 
         [[params.skills.list]]
+        skill = "Scrum / Agile"
+        level = "80%"
+
+        [[params.skills.list]]
         skill = "Python"
         level = "60%"
 
