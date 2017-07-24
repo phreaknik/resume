@@ -1,7 +1,7 @@
 # Page settings
 baseurl = "https://phreaknik.github.io/resume/"
 languageCode = "en-us"
-title = "John Doe Resume"
+title = "John Boyd Resume"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 publishDir = "docs"
@@ -9,8 +9,8 @@ publishDir = "docs"
 [params]
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+    description = "Resume/CV for John Boyd"
+    author = "John Boyd"
 
 # Theme styles
 
@@ -19,15 +19,15 @@ publishDir = "docs"
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles.css"
+    styles = "styles-3.css"
 
 # Sidebar sections
 
     # Profile section
     [params.profile]
-        name = "John Doe"
-        tagline = "Full Stack Developer"
-        avatar = "profile.png"
+        name = "John Boyd"
+        tagline = "Electrical Engineer"
+        avatar = "headshot.png"
 
     # Contact section
     [params.contact]
@@ -36,38 +36,32 @@ publishDir = "docs"
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: johnboydiv@gmail.com"
+        title = "johnboydiv@gmail.com"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        url = "tel:+1-817-707-7211"
+        title = "+1-817-707-7211"
 
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
+        url = "https://phreaknik.github.io/fullhack-blog"
+        title = "Portfolio Site"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        url = "//linkedin.com/in/john-boyd-iv"
+        title = "LinkedIn Profile"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
-
-        [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+        url = "//github.com/phreaknik"
+        title = "GitHub Profile"
 
     # Education section
     [params.education]
@@ -75,14 +69,14 @@ publishDir = "docs"
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "MSc in Electrical Engineering"
+        college = "Texas A&M University"
+        dates = "2014 - 2015"
 
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "BSc in Electrical Engineering"
+        college = "Texas A&M University"
+        dates = "2009 - 2014"
 
     # Languages section
     [params.language]
@@ -94,12 +88,8 @@ publishDir = "docs"
         level = "Native"
 
         [[params.language.list]]
-        language = "French"
-        level = "Professional"
-
-        [[params.language.list]]
-        language = "Russian"
-        level = "Professional"
+        language = "Spanish"
+        level = "Conversational"
 
     # Interests section
     [params.interests]
@@ -107,13 +97,16 @@ publishDir = "docs"
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Climbing"
+        interest = "Hardware Hacking"
+
+        [[params.interests.list]]
+        interest = "Rock Climbing"
 
         [[params.interests.list]]
         interest = "Snowboarding"
 
         [[params.interests.list]]
-        interest = "Cooking"
+        interest = "Motorsports"
 
 # Main body sections
 
