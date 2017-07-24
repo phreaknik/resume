@@ -19,7 +19,7 @@ publishDir = "docs"
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles-3.css"
+    styles = "styles.css"
 
 # Sidebar sections
 
