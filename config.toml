@@ -1,7 +1,7 @@
 # Page settings
 baseurl = "https://phreaknik.github.io/resume/"
 languageCode = "en-us"
-title = "John Doe Resume"
+title = "John Boyd Resume"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 publishDir = "docs"
@@ -9,8 +9,8 @@ publishDir = "docs"
 [params]
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+    description = "Resume/CV for John Boyd"
+    author = "John Boyd"
 
 # Theme styles
 
@@ -19,15 +19,15 @@ publishDir = "docs"
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles.css"
+    styles = "styles-6.css"
 
 # Sidebar sections
 
     # Profile section
     [params.profile]
-        name = "John Doe"
-        tagline = "Full Stack Developer"
-        avatar = "profile.png"
+        name = "John Boyd"
+        tagline = "Electrical Engineer"
+        avatar = "headshot.png"
 
     # Contact section
     [params.contact]
@@ -36,38 +36,32 @@ publishDir = "docs"
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: johnboydiv@gmail.com"
+        title = "johnboydiv@gmail.com"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        url = "tel:+18177077211"
+        title = "+1 (817) 707-7211"
 
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
+        url = "https://phreaknik.github.io/fullhack-blog"
+        title = "Portfolio Site"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        url = "//linkedin.com/in/john-boyd-iv"
+        title = "LinkedIn Profile"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
-
-        [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+        url = "//github.com/phreaknik"
+        title = "GitHub Profile"
 
     # Education section
     [params.education]
@@ -75,14 +69,14 @@ publishDir = "docs"
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "MSc Electrical Engineering\n\nAnalog & Mixed Signal VLSI\n\nGPA: 3.5"
+        college = "Texas A&M University"
+        dates = "2014 - 2015"
 
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "BSc Electrical Engineering\n\nGPA: 3.34 | Dean's List"
+        college = "Texas A&M University"
+        dates = "2009 - 2014"
 
     # Languages section
     [params.language]
@@ -94,12 +88,8 @@ publishDir = "docs"
         level = "Native"
 
         [[params.language.list]]
-        language = "French"
-        level = "Professional"
-
-        [[params.language.list]]
-        language = "Russian"
-        level = "Professional"
+        language = "Spanish"
+        level = "Conversational"
 
     # Interests section
     [params.interests]
@@ -107,13 +97,13 @@ publishDir = "docs"
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Climbing"
+        interest = "Hardware Hacking"
+
+        [[params.interests.list]]
+        interest = "Rock Climbing"
 
         [[params.interests.list]]
         interest = "Snowboarding"
-
-        [[params.interests.list]]
-        interest = "Cooking"
 
 # Main body sections
 
@@ -124,7 +114,17 @@ publishDir = "docs"
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = """I am an electrical engineer with a passion for all things electronic. Since childhood, I
+        have spent most of my time either tearing apart old gadgets or hacking together new creations of my own.
+        This passion for tech exploration and innovation has had a strong impact on my career path.\n\nI studied
+        electrical engineering at Texas A&M, where I graduated with a Masters Degree in electrical engineering. In
+        school I focused analog and mixed signal VLSI design, and ultimately spent a few years doing semiconductor
+        design. Throughout my time in school and at work in the semiconductor industry, I continued to work on
+        personal projects spanning a wide array of technologies, ranging from embedded system design to machine
+        learning mathematics.\n\nAfter work, I would often "moonlight" as an independent contractor, helping
+        startups prototype their tech ideas and in some cases bring those ideas to production. Now as CTO at Knocki,
+        I get to do this every day! I work with a great team of engineers and developers to take wild new ideas off
+        the whiteboard and onto the production line."""
 
     # Experiences section
     [params.experiences]
@@ -133,83 +133,138 @@ publishDir = "docs"
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "CTO | Lead Hardware Engineer"
+        dates = "Sep 2015 - Present"
+        company = "Knocki -- Austin, TX"
+        details = """As CTO at a small startup, I have had to wear many hats. My time at Knocki has involved
+        everything from PCB design/layout and embedded firmware to manufacturing support and supply chain management.
+        Being an \"Internet of Things\" product, Knocki requires development of full cloud platform and mobile app as
+        well as mechanical and electrical hardware design. Below is an incomplete list of my responsibilites:
+        \n* Work closely with founders to specify full technology stack to meet business needs:\n\t* Electronic sensing
+        and networking hardware design\n\t* Embedded system design for algorithmic computation and networking\n\t* Cloud
+        software stack\n\t* Mobile app interface specification\n* Design & fabricate prototypes to demonstrate proof
+        of concept and feasibility.\n* Lead team of engineers to design the product for manufacturability and in-field
+        reliability\n* Work with vendors to secure affordable and reliable supply chain for production\n* Work with
+        manufacturer to develop production line strategy and assembly/test equipment\n* Embedded firmware
+        design:\n\t* Sensor data acquisition\n\t* DSP algorithm design and implementation\n\t* WiFi networking
+        interface\n\t* Bare metal C + RTOS"""
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "VLSI Analog Design Engineer"
+        dates = "May 2015 - Jul 2016"
+        company = "Cirrus Logic -- Austin, TX"
+        details = """I worked at Cirrus Logic as an Analog Designer in the MEMS Microphone group. My duties involved
+        designing mixed signal VLSI circuitry within the audio processing ASIC inside Cirrus' line of MEMS microphones.
+        During my time here, I worked closely with the following technologies:
+        \n* Switched capacitor circuits for mixed-signal filtering\n* Sigma-delta ADCs with high SNR and dynamic
+        range\n* Speedpath design for timing closure of PCM data across PVT corners\n* Very low power and low noise
+        VLSI design\n* Analog, digital and mixed-signal circuit modeling and simulation"""
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Product Engineering Intern"
+        dates = "May 2013 - Jan 2015"
+        company = "Texas Instruments -- Dallas, TX"
+        details = """I worked at TI as a product engineering intern for two years during college. While at TI, I worked
+        in the Mixed Signal Automotive (MSA) group. My work involved charactarization and debug of audio amplifier ICs,
+        primarily class D & AB amplifiers. My duties often required me to develop my own circuitry to fully test the
+        capabilities of each amplifier. I became proficient at designing quick prototypes and test jigs for use in the
+        lab to test each amplifier. Each prototype had to be high performance and have good build quality, so as not to
+        interfere with the measurment results in the lab. Below are some of my responsibilities at this job:
+        \n* Validate and characterize class D and AB audio amplifier ICs\n* Design and fabricate test and measurement
+        equipment to be used in the lab\n* Fully automate all lab equipment using NI TestStand\n* Assist analog VLSI
+        designers in debugging issues found in silicon"""
+
+        [[params.jobs.list]]
+        position = "ASIC Design Intern"
+        dates = "May 2013 - Aug 2013"
+        company = "Emulex -- Austin, TX"
+        details = """At Emulex, I worked as an ASIC Design intern in the Network Interface Card (NIC) group. Here I
+        designed, simulated and emulated (on FPGAs) RTL to be used in SERDES modules of a 10Gbps ethernet adapter.
+        Below are some of the duties I was tasked with:
+        \n* Design Verilog RTL for high-speed SERDES (10Gbps)\n* Design SystemVerilog test benches to simulate RTL
+        designs\n* Emulate RTL on FPGA systems to ensure timing closure\n* Operate logic analyzers, scopes, and other
+        equipment to measure high speed systems"""
 
     # Projects section
-    [params.projects]
-        enable = true
-        icon = "fa-archive"
-        title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
-
-        [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
-
-        [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
-
-        [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
-
-        [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
-
-        [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
+    #[params.projects]
+     #   enable = true
+      #  icon = "fa-archive"
+       # title = "Projects"
+        #intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+#
+ #       [[params.projects.list]]
+  #      title = "Hugrid"
+   #     url = "https://github.com/aerohub/hugrid"
+    #    tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+#
+ #       [[params.projects.list]]
+  #      title = "Simple FAQ Theme for Hugo"
+   #     url = "https://github.com/aerohub/hugo-faq-theme"
+    #    tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+#
+ #       [[params.projects.list]]
+  #      title = "Hugo Identity"
+   #     url = "https://github.com/aerohub/hugo-identity-theme"
+    #    tagline = "Little profile/card-style template for Hugo."
+#
+ #       [[params.projects.list]]
+  #      title = "Orbit"
+   #     url = "https://github.com/aerohub/hugo-orbit-theme"
+    #    tagline = "Hugo Resume/CV Theme for Developers."
+#
+ #       [[params.projects.list]]
+  #      title = "Me"
+   #     url = "https://github.com/aerohub/hugo-me-theme"
+    #    tagline = "A simple responsive Hugo theme for personal site."
 
     # Skills section
     [params.skills]
         enable = true
         icon = "fa-rocket"
         title = "Skills & Proficiency"
-
-        [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
                 
         [[params.skills.list]]
-        skill = "Javascript & jQuery"
+        skill = "PCB Design"
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Angular"
+        skill = "Prototyping"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Solder / Reflow"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Lab Test & Measurment"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Embedded Systems"
+        level = "95%"
+                
+        [[params.skills.list]]
+        skill = "Mixed Signal VLSI"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "HTML5 & CSS"
+        skill = "Firmware"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "75%"
+        skill = "Matlab / Octave"
+        level = "90%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
+        skill = "Version Control (git/svn/p4)"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Scrum / Agile"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Python"
         level = "60%"
 
     # Footer section
@@ -222,4 +277,4 @@ publishDir = "docs"
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = ""
+        copyright = "John Boyd IV"
