@@ -164,12 +164,15 @@ publishDir = "docs"
         position = "Product Engineering Intern"
         dates = "May 2013 - Jan 2015"
         company = "Texas Instruments -- Dallas, TX"
-        details = """Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
-        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat 
-        massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
-        architecto beatae vitae dicta sunt explicabo."""
+        details = """I worked at TI as a product engineering intern for two years during college. While at TI, I worked
+        in the Mixed Signal Automotive (MSA) group. My work involved charactarization and debug of audio amplifier ICs,
+        primarily class D & AB amplifiers. My duties often required me to develop my own circuitry to fully test the
+        capabilities of each amplifier. I became proficient at designing quick prototypes and test jigs for use in the
+        lab to test each amplifier. Each prototype had to be high performance and have good build quality, so as not to
+        interfere with the measurment results in the lab. Below are some of my responsibilities at this job:
+        \n* Validate and characterize class D and AB audio amplifier ICs\n* Design and fabricate test and measurement
+        equipment to be used in the lab\n* Fully automate all lab equipment using NI TestStand\n* Assist analog VLSI
+        designers in debugging issues found in silicon"""
 
         [[params.jobs.list]]
         position = "ASIC Design Intern"
