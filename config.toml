@@ -49,7 +49,7 @@ publishDir = "docs"
         class = "website"
         icon = "fa-globe"
         url = "https://phreaknik.github.io/fullhack-blog"
-        title = "Portfolio Site"
+        title = "Project Portfolio"
 
         [[params.contact.list]]
         class = "linkedin"
@@ -118,7 +118,7 @@ publishDir = "docs"
         have spent most of my time either tearing apart old gadgets or hacking together new creations of my own.
         This passion for tech exploration and innovation has had a strong impact on my career path.\n\nI studied
         electrical engineering at Texas A&M, where I graduated with a Masters Degree in electrical engineering. In
-        school I focused analog and mixed signal VLSI design, and ultimately spent a few years doing semiconductor
+        school I focused on analog and mixed signal VLSI design, and ultimately spent a few years doing semiconductor
         design. Throughout my time in school and at work in the semiconductor industry, I continued to work on
         personal projects spanning a wide array of technologies, ranging from embedded system design to machine
         learning mathematics.\n\nAfter work, I would often "moonlight" as an independent contractor, helping
@@ -143,7 +143,7 @@ publishDir = "docs"
         \n* Work closely with founders to specify full technology stack to meet business needs:\n\t* Electronic sensing
         and networking hardware design\n\t* Embedded system design for algorithmic computation and networking\n\t* Cloud
         software stack\n\t* Mobile app interface specification\n* Design & fabricate prototypes to demonstrate proof
-        of concept and feasibility.\n* Lead team of engineers to design the product for manufacturability and in-field
+        of concept and feasibility\n* Lead team of engineers to design the product for manufacturability and in-field
         reliability\n* Work with vendors to secure affordable and reliable supply chain for production\n* Work with
         manufacturer to develop production line strategy and assembly/test equipment\n* Embedded firmware
         design:\n\t* Sensor data acquisition\n\t* DSP algorithm design and implementation\n\t* WiFi networking
@@ -155,7 +155,7 @@ publishDir = "docs"
         company = "Cirrus Logic -- Austin, TX"
         details = """I worked at Cirrus Logic as an Analog Designer in the MEMS Microphone group. My duties involved
         designing mixed signal VLSI circuitry within the audio processing ASIC inside Cirrus' line of MEMS microphones.
-        During my time here, I worked closely with the following technologies:
+        I worked closely with the following technologies:
         \n* Switched capacitor circuits for mixed-signal filtering\n* Sigma-delta ADCs with high SNR and dynamic
         range\n* Speedpath design for timing closure of PCM data across PVT corners\n* Very low power and low noise
         VLSI design\n* Analog, digital and mixed-signal circuit modeling and simulation"""
@@ -169,7 +169,7 @@ publishDir = "docs"
         primarily class D & AB amplifiers. My duties often required me to develop my own circuitry to fully test the
         capabilities of each amplifier. I became proficient at designing quick prototypes and test jigs for use in the
         lab to test each amplifier. Each prototype had to be high performance and have good build quality, so as not to
-        interfere with the measurment results in the lab. Below are some of my responsibilities at this job:
+        interfere with the measurment results in the lab. Below were some of my responsibilities at this job:
         \n* Validate and characterize class D and AB audio amplifier ICs\n* Design and fabricate test and measurement
         equipment to be used in the lab\n* Fully automate all lab equipment using NI TestStand\n* Assist analog VLSI
         designers in debugging issues found in silicon"""
