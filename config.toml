@@ -136,7 +136,18 @@ publishDir = "docs"
         position = "CTO | Lead Hardware Engineer"
         dates = "July 2016 - Present"
         company = "Knocki -- Austin, TX"
-        details = """My time at Knocki has allowed me to """
+        details = """As CTO at a small startup, I have had to wear many hats. My time at Knocki has involved
+        everything from PCB design/layout and embedded firmware to manufacturing support and supply chain management.
+        Being an \"Internet of Things\" product, Knocki requires development of full cloud platform and mobile app as
+        well as mechanical and electrical hardware design. Below is an incomplete list of my responsibilites:
+        \n* Work closely with founders to specify full technology stack to meet business needs:\n\t* Electronic sensing
+        and networking hardware design\n\t* Embedded system design for algorithmic computation and networking\n\t* Cloud
+        software stack\n\t* Mobile app interface specification\n* Design & fabricate prototypes to demonstrate proof
+        of concept and feasibility.\n* Lead team of engineers to design the product for manufacturability and in-field
+        reliability\n* Work with vendors to secure affordable and reliable supply chain for production\n* Work with
+        manufacturer to develop production line strategy and assembly/test equipment\n* Embedded firmware design:\n\t* Sensor data
+        acquisition\n\t* DSP algorithm design and implementation\n\t* WiFi networking interface\n\t* Bare metal C + RTOS
+        """
 
         [[params.jobs.list]]
         position = "Independent Contractor"
@@ -237,7 +248,7 @@ publishDir = "docs"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Embedded C"
+        skill = "Firmware"
         level = "95%"
 
         [[params.skills.list]]
