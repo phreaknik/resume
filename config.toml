@@ -178,12 +178,12 @@ publishDir = "docs"
         position = "ASIC Design Intern"
         dates = "May 2013 - Aug 2013"
         company = "Emulex -- Austin, TX"
-        details = """Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
-        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat 
-        massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
-        architecto beatae vitae dicta sunt explicabo."""
+        details = """At Emulex, I worked as an ASIC Design intern in the Network Interface Card (NIC) group. Here I
+        designed, simulated and emulated (on FPGAs) RTL to be used in SERDES modules of a 10Gbps ethernet adapter.
+        Below are some of the duties I was tasked with:
+        \n* Design Verilog RTL for high-speed SERDES (10Gbps)\n* Design SystemVerilog test benches to simulate RTL
+        designs\n* Emulate RTL on FPGA systems to ensure timing closure\n* Operate logic analyzers, scopes, and other
+        equipment to measure high speed systems"""
 
     # Projects section
     #[params.projects]
@@ -230,13 +230,21 @@ publishDir = "docs"
         [[params.skills.list]]
         skill = "Prototyping"
         level = "98%"
-                
+
         [[params.skills.list]]
-        skill = "Mixed Signal VLSI"
-        level = "95%"
+        skill = "Solder / Reflow"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Lab Test & Measurment"
+        level = "98%"
 
         [[params.skills.list]]
         skill = "Embedded Systems"
+        level = "95%"
+                
+        [[params.skills.list]]
+        skill = "Mixed Signal VLSI"
         level = "95%"
 
         [[params.skills.list]]
@@ -245,6 +253,10 @@ publishDir = "docs"
 
         [[params.skills.list]]
         skill = "Matlab / Octave"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Version Control (git/svn/p4)"
         level = "90%"
 
         [[params.skills.list]]
