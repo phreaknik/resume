@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "https://phreaknik.github.io/resume/"
+baseurl = "http://resume.johnboyd.io"
 languageCode = "en-us"
 title = "John Boyd Resume"
 theme = "hugo-orbit-theme"
