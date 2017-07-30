@@ -48,7 +48,7 @@ publishDir = "docs"
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "https://phreaknik.github.io/fullhack-blog"
+        url = "http://blog.johnboyd.io"
         title = "Project Portfolio"
 
         [[params.contact.list]]
