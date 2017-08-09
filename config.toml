@@ -138,7 +138,7 @@ publishDir = "docs"
         company = "Knocki -- Austin, TX"
         details = """As CTO at a small startup, I have had to wear many hats. My time at Knocki has involved
         everything from PCB design/layout and embedded firmware to manufacturing support and supply chain management.
-        Being an \"Internet of Things\" product, Knocki requires development of full cloud platform and mobile app as
+        Being an \"Internet of Things\" product, Knocki requires development of a full cloud platform and mobile app as
         well as mechanical and electrical hardware design. Below is an incomplete list of my responsibilites:
         \n* Work closely with founders to specify full technology stack to meet business needs:\n\t* Electronic sensing
         and networking hardware design\n\t* Embedded system design for algorithmic computation and networking\n\t* Cloud
