@@ -136,7 +136,7 @@ publishDir = "docs"
         position = "CTO | Lead Hardware Engineer"
         dates = "Sep 2015 - Present"
         company = "Knocki -- Austin, TX"
-        details = """As CTO at a small startup, I have had to wear many hats. My time at Knocki has involved
+        details = """As CTO at a rapidly scaling startup, I have had to wear many hats. My time at Knocki has involved
         everything from PCB design/layout and embedded firmware to manufacturing support and supply chain management.
         Being an \"Internet of Things\" product, Knocki requires development of a full cloud platform and mobile app as
         well as mechanical and electrical hardware design. Below is an incomplete list of my responsibilites:
