@@ -3,7 +3,7 @@ baseurl = "http://resume.johnboyd.io/"
 languageCode = "en-us"
 title = "John Boyd Resume"
 theme = "hugo-orbit-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-103090041-1"
 publishDir = "docs"
 
 [params]
